@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: client
+
+server:
+  port: 8083
+
+#eureka客户端配置
+eureka:
+  client:
+#      registerWithEureka: false  默认将自己也注册上去 false就不注册自己
+#      fetchRegistry: true     默认为true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8082/eureka   #注册中心地址跟服务端一致
+
+

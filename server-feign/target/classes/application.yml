@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign
+  cloud:
+    zookeeper:
+      connectString: 10.190.3.172:5888
+
+server:
+  port: 0
