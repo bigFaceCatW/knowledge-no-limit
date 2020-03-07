@@ -22,6 +22,8 @@ import java.util.Set;
 @EnableDiscoveryClient  //激活服务发现客户端
 public class SpringCloudClientApplication {
 
+
+
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudClientApplication.class, args);
     }
