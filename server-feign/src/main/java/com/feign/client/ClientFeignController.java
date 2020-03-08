@@ -16,7 +16,7 @@ public class ClientFeignController {
     @Resource
     private ClientFeign clientFeign;
 
-    @GetMapping(value = "/call/service/{message}")
+    @GetMapping(value = "/callFeign/service/{message}")
     public String client(@PathVariable String message){
         return clientFeign.service(message);
 
