@@ -48,7 +48,6 @@ public class ClientRibbonController {
                 map(s -> "http://" + s.getHost() + ":" + s.getPort())
                 .collect(Collectors.toSet());
         this.urls =newUrls;
-
     }
 
 
