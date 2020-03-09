@@ -31,7 +31,7 @@ public class SpringCloudClientApplication {
     @Resource
     private DiscoveryClient discoveryClient;
 
-/**获取所有服务列表
+/**获取所有服务列表.
    * @param
  */
     @GetMapping("/servers")
